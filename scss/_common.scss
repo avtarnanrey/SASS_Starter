@@ -1,0 +1,21 @@
+@import "variables.scss";
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-heading;
+}
+
+p, div, small, span {
+    font-family: $font-body;
+}
+
+.flexGrow {
+    flex-grow: 1;
+}
+
+.noMargin {
+    margin: 0px;
+}
+
+.fullHeight {
+    height: 100vh;
+}
