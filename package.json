@@ -1,0 +1,23 @@
+{
+  "name": "sass_starter",
+  "version": "1.0.0",
+  "description": "HTML markups project setup using SASS",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "node ./scss/build-config.js",
+    "watch:css": "./node_modules/node-sass/bin/node-sass -w scss/ -o dist/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avtarnanrey/SASS_Starter.git"
+  },
+  "author": "Avtar Nanrey <avtar@avtarnanrey.com> (http://www.avtarnanrey.com)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/avtarnanrey/SASS_Starter/issues"
+  },
+  "homepage": "https://github.com/avtarnanrey/SASS_Starter#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
