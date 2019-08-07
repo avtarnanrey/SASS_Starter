@@ -4,8 +4,8 @@
   "description": "HTML markups project setup using SASS",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/node-sass scss/bundle.scss -o dist/css/bundle.css",
-    "dev:css": "node-sass -w scss/ -o dist/css/"
+    "build:css": "node ./scss/build-config.js",
+    "watch:css": "./node_modules/node-sass/bin/node-sass -w scss/ -o dist/css/"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,7 @@
     "url": "https://github.com/avtarnanrey/SASS_Starter/issues"
   },
   "homepage": "https://github.com/avtarnanrey/SASS_Starter#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
 }
